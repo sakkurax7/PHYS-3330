@@ -21,6 +21,8 @@ from .filters_lowpass import *
 from .filters_highpass import *
 from .filters_bandpass import *
 
+from .bode_plot import *
+
 __all__ = [
     "percent_error",
     "parallel_resistors",
@@ -31,4 +33,5 @@ __all__ = [
     "voltage_divider",
     "current_through_voltage_divider",
     "transfer_function_voltage_divider",
+    "bode_plot",
 ]
