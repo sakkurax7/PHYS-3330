@@ -23,6 +23,8 @@ from .filters_bandpass import *
 
 from .bode_plot import *
 
+from .opamps import *
+
 __all__ = [
     "percent_error",
     "parallel_resistors",
@@ -34,4 +36,5 @@ __all__ = [
     "current_through_voltage_divider",
     "transfer_function_voltage_divider",
     "bode_plot",
+    "opamp_gain_magnitude"
 ]
